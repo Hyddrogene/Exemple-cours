@@ -35,7 +35,7 @@ jobs:
 
       # 3) Génération de la documentation
       - name: Générer la documentation (phpDocumentor)
-        run: vendor/bin/phpdoc -d . -t docs/api
+        run: vendor/bin/phpdoc -d calculatrice.php -t docs/api
 
       # 4) Sauvegarder la doc comme artefact
       - name: Upload de la doc générée
