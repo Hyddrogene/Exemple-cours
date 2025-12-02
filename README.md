@@ -1,2 +1,3 @@
-# Exemple-cours
-Exemple du cours
+# Demo bisect
+
+Script de calcul simple.
