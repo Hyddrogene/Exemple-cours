@@ -3,7 +3,7 @@
 // Addition (bug introduit ici !)
 function add(int $a, int $b): int {
     // BUG: multiplication au lieu d'une addition
-    return $a * $b;
+    return $a - $b;
 }
 
 if ($argc === 3) {
